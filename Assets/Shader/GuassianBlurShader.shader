@@ -1,4 +1,4 @@
-Shader "Custom/GuassianBlurShader" {
+Shader "UniryShader/GuassianBlurShader" {
     Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 		_BlurSize ("Blur Size", Float) = 1.0
