@@ -50,19 +50,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\GaussianBlur.cs" />
      <Compile Include="Assets\Script\PostEffectBase.cs" />
      <Compile Include="Assets\Script\SetPropertyDrawer.cs" />
+     <Compile Include="Assets\Script\Bloom.cs" />
      <Compile Include="Assets\Script\ProceduralTextureGeneration.cs" />
      <Compile Include="Assets\Script\Test.cs" />
+     <Compile Include="Assets\Script\MotionBlurWithDepthTexture.cs" />
+     <Compile Include="Assets\Script\Translating.cs" />
      <Compile Include="Assets\Script\RenderCubemap.cs" />
      <Compile Include="Assets\Script\SetPropertyAttribute.cs" />
      <Compile Include="Assets\Script\BrightnessSaturationAndContrast.cs" />
      <Compile Include="Assets\Script\EdgeDetection.cs" />
-     <Compile Include="Assets\Script\GaussianBlur.cs" />
-     <Compile Include="Assets\Script\Bloom.cs" />
      <Compile Include="Assets\Script\MotionBlur.cs" />
-     <Compile Include="Assets\Script\Translating.cs" />
+     <Compile Include="Assets\Script\FogWithDepthTexture.cs" />
+     <Compile Include="Assets\Script\EdgeDetectNormalAndDepth.cs" />
      <None Include="Assets\Shader\DiffuseVertexLevelShader.shader" />
+     <None Include="Assets\Shader\MotionBlurWithDepthTextureShader.shader" />
      <None Include="Assets\Shader\AlphaTestWithShadowShader.shader" />
      <None Include="Assets\Shader\ScrollingBackgroundShader.shader" />
      <None Include="Assets\Shader\AlphaBlendBothSideShader.shader" />
@@ -77,6 +81,7 @@
      <None Include="Assets\Shader\DiffusePixelLevelShader.shader" />
      <None Include="Assets\Shader\AlphaBlendZWriteShader.shader" />
      <None Include="Assets\Shader\WaterShader.shader" />
+     <None Include="Assets\Shader\HatchingShader.shader" />
      <None Include="Assets\Shader\SingleTextureShader.shader" />
      <None Include="Assets\Shader\MirrorShader.shader" />
      <None Include="Assets\Shader\SpecularVertexLevelShader.shader" />
@@ -89,12 +94,15 @@
      <None Include="Assets\Shader\BillboardShader.shader" />
      <None Include="Assets\Shader\MaskTextureShader.shader" />
      <None Include="Assets\Shader\HalfLambertShader.shader" />
+     <None Include="Assets\Shader\FogWithDepthTextureShader.shader" />
      <None Include="Assets\Shader\BlinnPhoneShader.shader" />
+     <None Include="Assets\Shader\ToonShadingShader.shader" />
      <None Include="Assets\Shader\RampTextureShader.shader" />
      <None Include="Assets\Shader\ForwardRenderingShader.shader" />
      <None Include="Assets\Shader\MotionBlurShader.shader" />
      <None Include="Assets\Shader\NormalMapTangentSpaceShader.shader" />
      <None Include="Assets\Shader\SpecularPixelLevelShader.shader" />
+     <None Include="Assets\Shader\EdgeDetectNormalAndDepthShader.shader" />
      <None Include="Assets\Shader\ImageSequenceAnimationShader.shader" />
      <None Include="Assets\Shader\AlphaTestShader.shader" />
  <Reference Include="Unity.Timeline.Editor">
