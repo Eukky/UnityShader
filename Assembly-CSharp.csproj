@@ -65,6 +65,7 @@
      <Compile Include="Assets\Script\MotionBlur.cs" />
      <Compile Include="Assets\Script\FogWithDepthTexture.cs" />
      <Compile Include="Assets\Script\EdgeDetectNormalAndDepth.cs" />
+     <Compile Include="Assets\Script\FogWithNoise.cs" />
      <None Include="Assets\Shader\DiffuseVertexLevelShader.shader" />
      <None Include="Assets\Shader\MotionBlurWithDepthTextureShader.shader" />
      <None Include="Assets\Shader\AlphaTestWithShadowShader.shader" />
@@ -97,8 +98,11 @@
      <None Include="Assets\Shader\FogWithDepthTextureShader.shader" />
      <None Include="Assets\Shader\BlinnPhoneShader.shader" />
      <None Include="Assets\Shader\ToonShadingShader.shader" />
+     <None Include="Assets\Shader\WaterWaveShader.shader" />
+     <None Include="Assets\Shader\FogWithNoise.shader" />
      <None Include="Assets\Shader\RampTextureShader.shader" />
      <None Include="Assets\Shader\ForwardRenderingShader.shader" />
+     <None Include="Assets\Shader\DissolveShader.shader" />
      <None Include="Assets\Shader\MotionBlurShader.shader" />
      <None Include="Assets\Shader\NormalMapTangentSpaceShader.shader" />
      <None Include="Assets\Shader\SpecularPixelLevelShader.shader" />

@@ -1,4 +1,4 @@
-Shader "UniryShader/BloomShader" {
+Shader "UnityShader/BloomShader" {
     Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 		_Bloom ("Bloom (RGB)", 2D) = "black" {}
@@ -78,9 +78,9 @@ Shader "UniryShader/BloomShader" {
 			ENDCG  
 		}
 		
-		UsePass "UniryShader/GuassianBlurShader/GAUSSIAN_BLUR_VERTICAL"
+		UsePass "UnityShader/GuassianBlurShader/GAUSSIAN_BLUR_VERTICAL"
 		
-		UsePass "UniryShader/GuassianBlurShader/GAUSSIAN_BLUR_HORIZONTAL"
+		UsePass "UnityShader/GuassianBlurShader/GAUSSIAN_BLUR_HORIZONTAL"
 		
 		Pass {  
 			CGPROGRAM  
